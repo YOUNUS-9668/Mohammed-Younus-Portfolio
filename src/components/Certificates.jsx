@@ -39,8 +39,8 @@ const Certificates = () => {
             Certifications
           </h2>
           <p className="text-red-100 text-base md:text-lg font-semibold max-w-lg mx-auto">
-            Industry-recognized certifications that validate my technical expertise.
-          </p>
+  Certifications and learning experiences that strengthen my skills in data, programming, and technology.
+</p>
         </div>
 
         {/* Certificate Cards Grid */}

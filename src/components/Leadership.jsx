@@ -60,11 +60,12 @@ const Leadership = () => {
             Activities
           </div>
           <h2 className="text-4xl md:text-5xl font-black text-white tracking-tight mb-4 uppercase">
-            Leadership & Engagement
-          </h2>
-          <p className="text-white/50 text-base md:text-lg max-w-lg mx-auto leading-relaxed">
-            Coordinating events, leading team operations, and participating in tech summits.
-          </p>
+  Leadership & Activities
+</h2>
+
+<p className="text-white/50 text-base md:text-lg max-w-lg mx-auto leading-relaxed">
+  Experiences that strengthened my communication, teamwork, coordination, and responsibility.
+</p>
         </div>
 
         {/* Timeline container */}

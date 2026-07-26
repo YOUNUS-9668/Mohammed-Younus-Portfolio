@@ -134,8 +134,8 @@ const Projects = () => {
             Work that speaks <br className="hidden md:block" />for itself
           </h2>
           <p className="text-white/50 text-base md:text-lg max-w-lg font-medium leading-relaxed">
-            A selection of projects that showcase my expertise in full-stack development and modern architecture.
-          </p>
+  A selection of projects showcasing my skills in data analysis, visualization, Python, SQL, and Power BI.
+</p>
         </div>
 
         {/* Project Cards */}

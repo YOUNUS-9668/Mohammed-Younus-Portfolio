@@ -43,8 +43,8 @@ const SoftSkills = () => {
             Professional Soft Skills
           </h2>
           <p className="text-gray-500 text-base md:text-lg max-w-lg mx-auto leading-relaxed">
-            Essential traits that make me an effective engineer, coordinator, and communicator.
-          </p>
+  Essential qualities that help me communicate effectively, collaborate with teams, solve problems, and adapt to new challenges.
+</p>
         </div>
 
         {/* Soft Skills Grid */}

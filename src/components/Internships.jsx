@@ -67,11 +67,11 @@ const Internships = () => {
         {/* Header */}
         <div data-aos="fade-up" className="mb-16 md:mb-20 text-center">
           <h2 className="text-4xl md:text-5xl font-black text-black mb-4 tracking-tight uppercase">
-            Work Experience
+            Internship Experience
           </h2>
-          <p className="text-red-100 text-base md:text-lg font-semibold max-w-lg mx-auto">
-            Practical internships where I applied engineering principles and built real-world assets.
-          </p>
+         <p className="text-red-100 text-base md:text-lg font-semibold max-w-lg mx-auto">
+  Practical experience where I strengthened my programming, problem-solving, and technical skills through hands-on tasks.
+</p>
         </div>
 
         {/* Internship Cards Grid */}

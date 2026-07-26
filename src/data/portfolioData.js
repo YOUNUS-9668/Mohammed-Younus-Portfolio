@@ -1,55 +1,55 @@
 // ============================================================
-// portfolioData.js — Centralized configuration for Md Yusuf's Portfolio
+// portfolioData.js — Centralized configuration for Md Younus's Portfolio
 // All external links, personal info, and content in one place.
 // Update this file to change any content across the entire site.
 // ============================================================
 
 export const personalInfo = {
-  name: "Md Yusuf",
-  firstName: "Md Yusuf",
-  brandName: "Md Yusuf",
-  title: "Full Stack & Java Developer",
-  location: "Bhopal, India",
-  phone: "+91 99396-08743",
+  name: "Mohammed Younus",
+  firstName: "Md Younus",
+  brandName: "Md Younus",
+  title: "Data Analyst & Data Science Enthusiast",
+  location: "Hyderabad, India",
+  phone: "+91 9652638328",
   emails: {
-    primary: "mdyusufcse096@iesuniversity.ac.in",
-    secondary: "yusuf.rgpv@gmail.com",
+    primary: "mdyounus8328@gmail.com",
+    secondary: "mohammedyounus.work@gmail.com",
   },
   summary:
-    "Aspiring software engineer and motivated B.Tech Computer Science student with solid skills in Java, Spring Boot, React, and Python. Passionate about building scalable full-stack applications with clean architecture and modern tech stacks.",
-  resumeUrl: "/Md_Yusuf_Resume_2026.pdf",
+  "Computer Science and Engineering graduate with skills in Python, SQL, Pandas, NumPy, Power BI, and data analysis. Interested in transforming raw data into meaningful insights through data cleaning, visualization, analysis, and practical data-driven projects.",
+  resumeUrl: "/Mohammed_Younus_Resume.pdf",
 };
 
 export const socialLinks = {
-  github: "https://github.com/mdyusuf0",
-  linkedin: "https://linkedin.com/in/mdyusuf0",
-  instagram: "https://instagram.com/heyyusuffff",
+  github: "https://github.com/YOUNUS-9668",
+  linkedin: "https://www.linkedin.com/in/mohammed-younus-5a96552bb/",
 };
 
 export const heroContent = {
-  greeting: "Hi, I'm Md Yusuf",
-  titleHighlight: "Full Stack & Java Developer",
+  greeting: "Hi, I'm Mohammed Younus",
+  titleHighlight: "Data Scientist",
   subtitle:
-    "I build fast, scalable applications using Java, Spring Boot, MERN Stack, and Python.",
+  "I enjoy working with data, uncovering insights, and solving problems using Python, SQL, and Power BI.",
   ctaPrimary: { text: "View My Work", href: "#projects" },
   ctaSecondary: {
     text: "Contact Me",
-    href: "mailto:mdyusufcse096@iesuniversity.ac.in?subject=Hiring Inquiry – Portfolio&body=Hello Md Yusuf,%0D%0A%0D%0AI came across your portfolio and would like to discuss an opportunity with you.%0D%0A%0D%0ALooking forward to hearing from you.%0D%0ABest Regards,",
+    href: "mailto:mdyounus8328@gmail.com?subject=Hiring Inquiry – Portfolio&body=Hello Mohammed Younus,%0D%0A%0D%0AI came across your portfolio and would like to discuss an opportunity with you.%0D%0A%0D%0ALooking forward to hearing from you.%0D%0ABest Regards,"
   },
-  ctaResume: { text: "Download Resume", href: "/Md_Yusuf_Resume_2026.pdf" },
+  ctaResume: { text: "Download Resume", href: "/Mohammed_Younus_Resume.pdf" },
 };
 
 export const aboutContent = {
   heading: "Hello!",
-  bio: `Hi, my name is <span class="text-black text-xl font-black mx-1 tracking-wide uppercase">Md Yusuf</span>, an aspiring software engineer based in Bhopal, India, dedicated to crafting clean, functional, and highly scalable full-stack applications.`,
-  techStack: ["Java", "Spring Boot", "MERN Stack"],
+  bio: `Hi, my name is <span class="text-black text-xl font-black mx-1 tracking-wide uppercase">Mohammed Younus</span>, an aspiring Data Analyst based in Hyderabad, India, passionate about transforming raw data into meaningful insights through data analysis, visualization, and problem-solving.
+.`,
+techStack: ["Python", "SQL", "Power BI"],
 };
 
 export const skillsContent = {
   badge: "My Process",
   heading: "Here's how I turn ideas into real-world applications",
   description:
-    "I follow a structured, creative, and highly technical approach to turn ideas into robust full-stack applications.",
+    "I follow a structured, creative, and highly technical approach to turn ideas into robust and meaningful insights.",
   cards: [
     {
       number: "01",
@@ -58,239 +58,251 @@ export const skillsContent = {
     },
     {
       number: "02",
-      title: "Design",
-      text: "Crafting clean architecture, intuitive interfaces, and pixel-perfect wireframes that guarantee an engaging and accessible user experience.",
+      title: "Analyze",
+      text: "I explore and analyze data to identify patterns, trends, and relationships that can provide meaningful insights.",
     },
     {
       number: "03",
-      title: "Develop",
-      text: "Building scalable backends and responsive frontends using modern tech stacks and best practices.",
+      title: "Visualize",
+      text: "I create clear and interactive dashboards that turn complex data into easy-to-understand visual insights.",
     },
     {
       number: "04",
-      title: "Deploy",
-      text: "Rigorous testing, performance optimization, and seamless deployment to cloud infrastructure, followed by ongoing support.",
+      title: "Present",
+      text: "I communicate key findings and data-driven insights clearly to support better decision-making",
     },
   ],
-  endText: "Ready to ship!",
+  endText: "Insights that matter!",
 };
 
 // Brand New Technical Skills Data
+// Technical Skills Data
 export const technicalSkills = {
   categories: [
     {
-      title: "Programming Languages",
+      title: "Programming & Query Languages",
       skills: [
-        { name: "Java", level: 90 },
-        { name: "C++", level: 85 },
-        { name: "Python", level: 75 }
+        { name: "Python", level: 85 },
+        { name: "SQL", level: 85 },
+        { name: "C", level: 70 }
       ]
     },
     {
-      title: "Full Stack",
+      title: "Data Analysis",
       skills: [
-        { name: "MERN Stack", level: 90 },
-        { name: "HTML", level: 95 },
-        { name: "CSS", level: 90 },
-        { name: "JavaScript", level: 92 }
+        { name: "Pandas", level: 85 },
+        { name: "NumPy", level: 80 },
+        { name: "Data Cleaning", level: 85 },
+        { name: "Exploratory Data Analysis", level: 80 }
       ]
     },
     {
-      title: "Backend",
+      title: "Data Visualization & BI",
       skills: [
-        { name: "Spring Boot", level: 88 },
-        { name: "FastAPI", level: 75 },
-        { name: "REST APIs", level: 90 }
+        { name: "Power BI", level: 85 },
+        { name: "Matplotlib", level: 80 },
+        { name: "Dashboard Development", level: 85 },
+        { name: "Data Visualization", level: 85 }
       ]
     },
     {
       title: "Databases",
       skills: [
-        { name: "MongoDB", level: 88 },
-        { name: "MySQL", level: 85 },
-        { name: "Firebase", level: 80 }
+        { name: "MySQL", level: 80 },
+        { name: "SQL Queries", level: 85 },
+        { name: "Joins & CTEs", level: 80 }
       ]
     },
     {
-      title: "Tools & Automation",
+      title: "Tools & Platforms",
       skills: [
-        { name: "Git & GitHub", level: 90 },
-        { name: "VS Code", level: 95 },
-        { name: "Postman", level: 88 },
-        { name: "n8n", level: 82 },
-        { name: "MongoDB Compass", level: 85 },
-        { name: "Antigravity", level: 80 },
-        { name: "Codex", level: 75 }
+        { name: "Git & GitHub", level: 75 },
+        { name: "VS Code", level: 85 },
+        { name: "Jupyter Notebook", level: 85 },
+        { name: "Databricks", level: 75 },
+        { name: "AWS Basics", level: 65 }
       ]
     },
     {
-      title: "Computer Science Concepts",
+      title: "Data Science Fundamentals",
       skills: [
-        { name: "Data Structures", level: 88 },
-        { name: "Algorithms", level: 85 },
-        { name: "DBMS", level: 86 },
-        { name: "OOP", level: 90 },
-        { name: "Software Engineering", level: 84 }
+        { name: "Data Preprocessing", level: 80 },
+        { name: "Data Transformation", level: 80 },
+        { name: "Statistical Analysis", level: 70 },
+        { name: "Machine Learning Basics", level: 70 }
       ]
     }
   ]
 };
-
-// Brand New Content Creation Data
+// Data Analytics Capabilities
 export const contentCreation = {
-  badge: "Cinematic Content",
-  heading: "Creative Direction & Cinematic Edits",
-  description: "Beyond coding, I craft visual stories with premium editing, color grading, and creative pacing.",
+  badge: "Data Analytics",
+  heading: "Turning Raw Data Into Meaningful Insights",
+  description:
+    "I work with data from cleaning and exploration to visualization, helping transform raw information into clear and useful insights.",
+
   categories: [
     {
-      title: "Cinematic Reels",
-      description: "Visual stories crafted with cinematic lighting, premium color grading, and high-impact sound design.",
-      stats: "50+ Reels Created",
-      icon: "🎥"
+      title: "Data Cleaning",
+      description:
+        "Preparing raw datasets by handling missing values, duplicates, inconsistent data, and formatting issues.",
+      stats: "Python & Pandas",
+      icon: "🧹"
     },
     {
-      title: "Travel Videos",
-      description: "Immersive travel vlogs and aesthetic edits capturing cultures, landscapes, and visual rhythms.",
-      stats: "15+ Countries/Cities",
-      icon: "✈️"
+      title: "Data Analysis",
+      description:
+        "Exploring datasets to identify patterns, trends, relationships, and useful information for decision-making.",
+      stats: "Python & SQL",
+      icon: "📊"
     },
     {
-      title: "Educational Reels",
-      description: "Fast-paced tech tutorials and educational content designed to simplify coding and software engineering.",
-      stats: "100k+ Views",
-      icon: "🧠"
+      title: "Data Visualization",
+      description:
+        "Creating clear visualizations that make complex data easier to understand and communicate.",
+      stats: "Power BI & Matplotlib",
+      icon: "📈"
     },
     {
-      title: "My Own Creative Edits",
-      description: "Experimental transitions, 3D overlays, and trendsetting visual effects that push creative bounds.",
-      stats: "Personal Projects",
-      icon: "⚡"
+      title: "Dashboard Development",
+      description:
+        "Building interactive dashboards to present KPIs, trends, comparisons, and important business insights.",
+      stats: "Power BI",
+      icon: "💻"
     }
   ]
 };
 
-// Brand New Leadership Data
+// Leadership & Responsibilities
 export const leadershipList = [
   {
-    title: "IEEE Madhya Pradesh Section (Social Media Team)",
-    description: "Managed and coordinated digital content, driving audience engagement and designing interactive visual campaigns for tech events.",
-    role: "Social Media Coordinator",
-    badge: "Volunteer"
-  },
-  {
-    title: "Team Coordinator – Go-Kart International Racing 2K25",
-    description: "Led multi-disciplinary teams in project management, budget control, and logistics coordination for a high-profile international racing event.",
-    role: "Team Coordinator",
+    title: "Class Representative – B.Tech CSE",
+    description:
+      "Served as a Class Representative, coordinating communication between students and faculty, sharing academic updates, and helping address class-related concerns.",
+    role: "Class Representative",
     badge: "Leadership"
-  },
-  {
-    title: "5-Day MOE IDE Bootcamp, Roorkee",
-    description: "Participated in an intensive Innovation, Design, and Entrepreneurship Bootcamp organized by the Ministry of Education at IIT Roorkee.",
-    role: "Bootcamp Graduate",
-    badge: "Innovation"
-  },
-  {
-    title: "Hosted INFORIA Tech Summit Hackathon",
-    description: "Organized and hosted the flagship hackathon, managing registrations, mentoring participant teams, and coordinating judge evaluations.",
-    role: "Hackathon Organizer",
-    badge: "Co-Curricular"
-  },
-  {
-    title: "Event Coordinator & Anchoring – INFORIA 2K25",
-    description: "Coordinated technical events and served as the main stage anchor, speaking in front of large crowds and managing the summit flow.",
-    role: "Stage Anchor & Coordinator",
-    badge: "Public Speaking"
   }
 ];
 
-// Brand New Internships Data
+// Internships Data
 export const internshipsList = [
   {
-    organization: "Netlink, Bhopal",
-    role: "Data Analytics & BI Tools Intern",
-    duration: "June 2025 - August 2025",
-    skills: ["Data Analytics", "Business Intelligence", "Dashboard Design", "Data Modeling"],
-    tech: ["Lumenore", "MySQL", "Excel", "BI Tools"]
-  },
-  {
-    organization: "Canva",
-    role: "Visual Content Creator & Designer",
-    duration: "May 2024 - June 2024",
-    skills: ["Visual Designing", "Poster Design", "Team Branding", "Asset Creation"],
-    tech: ["Canva Pro", "Figma", "Canva Design Suite"]
-  },
-  {
-    organization: "CollegeTips.in",
-    role: "Web Development Intern",
-    duration: "1 Month (Offline)",
-    skills: ["Frontend Development", "Responsive Layouts", "API Testing", "Web Performance"],
-    tech: ["HTML5", "CSS3", "JavaScript", "Bootstrap"]
+    organization: "Vault of Codes",
+    role: "Python Programming Intern",
+    duration: "1 month - Virtual Internship",
+    skills: [
+      "Python Programming",
+      "Problem Solving",
+      "Programming Fundamentals",
+      "Practical Coding"
+    ],
+    tech: [
+      "Python",
+      "VS Code"
+    ]
   }
 ];
 
-// Brand New Soft Skills Data
+// Soft Skills Data
 export const softSkillsList = [
-  { name: "Leadership", icon: "👑", desc: "Guiding teams, managing tasks, and driving project completion with shared vision." },
-  { name: "Public Speaking", icon: "🎤", desc: "Confident stage presence, anchoring summits, and delivering articulate technical ideas." },
-  { name: "Team Collaboration", icon: "🤝", desc: "Collaborating across fields, building racing carts, and engineering code in sync." },
-  { name: "Communication", icon: "💬", desc: "Clear, concise, and structured interactions in both business and technical contexts." },
-  { name: "Problem Solving", icon: "🧩", desc: "Breaking down complex engineering tasks into clean, logical, and modular pieces." },
-  { name: "Adaptability", icon: "🌟", desc: "Quick to pick up new frameworks like FastAPI, Spring Boot, or automation tools like n8n." },
-  { name: "Creativity", icon: "🎨", desc: "Blending cinematic aesthetics with software structure to build premium experiences." },
-  { name: "Time Management", icon: "⏰", desc: "Balancing B.Tech studies, event hosting, and developing robust software platforms." }
+  {
+    name: "Communication",
+    icon: "💬",
+    desc: "Communicating ideas and findings clearly while working with teammates and presenting project outcomes."
+  },
+  {
+    name: "Problem Solving",
+    icon: "🧩",
+    desc: "Approaching problems logically, identifying the root cause, and finding practical solutions."
+  },
+  {
+    name: "Analytical Thinking",
+    icon: "📊",
+    desc: "Examining information carefully to identify patterns, trends, and meaningful insights."
+  },
+  {
+    name: "Team Collaboration",
+    icon: "🤝",
+    desc: "Working effectively with team members, sharing responsibilities, and contributing toward common goals."
+  },
+  {
+    name: "Leadership",
+    icon: "👑",
+    desc: "Developed leadership and coordination skills through my responsibilities as a Class Representative."
+  },
+  {
+    name: "Adaptability",
+    icon: "🌟",
+    desc: "Comfortable learning new technologies, tools, and approaches based on project requirements."
+  },
+  {
+    name: "Attention to Detail",
+    icon: "🔍",
+    desc: "Carefully reviewing data and work to identify inconsistencies, errors, and important details."
+  },
+  {
+    name: "Time Management",
+    icon: "⏰",
+    desc: "Organizing tasks and priorities to complete academic and project work within deadlines."
+  }
 ];
-
 export const projects = [
   {
-    id: "foodmesh",
+    id: "food-wastage-analysis",
     number: "01",
-    badge: "🚀 Flagship Project",
-    title: "FoodMesh",
+    badge: "🚀 Featured Project",
+    title: "Global Food Wastage Analysis",
     description:
-      "FoodMesh — An enterprise-grade multi-tenant restaurant management and food ordering SaaS platform inspired by UrbanPiper. It enables restaurants to manage multiple outlets, menus, inventory, customers, staff, and orders through a scalable architecture with secure authentication, role-based access control, and real-time operations. Built with React, Next.js, NestJS, PostgreSQL, Redis, Kafka, Elasticsearch, Docker, Kubernetes, and AWS.",
+      "A data analytics project focused on analyzing global food wastage data to identify waste patterns, category-wise trends, and key insights. The project involved data cleaning, analysis, and the development of an interactive Power BI dashboard using KPIs and multiple visualizations to present the findings clearly.",
     techTags: [
-      "React",
-      "Next.js",
-      "NestJS",
-      "PostgreSQL",
-      "Redis",
-      "Kafka",
-      "Elasticsearch",
-      "Docker",
-      "Kubernetes",
-      "AWS",
+      "Power BI",
+      "Python",
+      "Pandas",
+      "Data Analysis",
+      "Data Visualization"
     ],
     links: {
-      github: "https://github.com/ersamirsingh/UrbanPiper",
+      github: "#",
       demo: null,
     },
     isFlagship: true,
   },
+
   {
-    id: "karigar",
+    id: "swiggy-data-analysis",
     number: "02",
     badge: null,
-    title: "Karigar",
+    title: "Swiggy Data Analysis Dashboard",
     description:
-      "A platform connecting local skilled workers with customers, featuring real-time search, worker profiles, and booking management with full database integration.",
-    techTags: ["React", "Node.js", "MongoDB", "Express", "REST API"],
+      "An exploratory data analysis project using a Swiggy dataset to understand restaurant, pricing, rating, and food-related patterns. The data was explored and processed using data analytics tools, followed by dashboard development to present important KPIs and insights visually.",
+    techTags: [
+      "Databricks",
+      "SQL",
+      "Power BI",
+      "Data Analysis",
+      "Dashboard"
+    ],
     links: {
-      github: "https://github.com/mdyusuf0/Karigar",
-      frontendDemo: "https://karigar-frontend.onrender.com",
-      backendApi: "https://karigar-zny2.onrender.com",
+      github: "#",
     },
     isFlagship: false,
   },
+
   {
-    id: "sentiment-analysis",
+    id: "college-website",
     number: "03",
     badge: null,
-    title: "AI-Powered Sentiment Analysis",
+    title: "College Website",
     description:
-      "A full-stack web application that analyzes citizen feedback using Artificial Intelligence to classify sentiments as positive, negative, or neutral. Features a responsive React frontend, a Node.js backend, MongoDB for data storage, and n8n automation for workflow orchestration — enabling real-time insights and efficient feedback management.",
-    techTags: ["React", "Node.js", "MongoDB", "n8n", "AI/ML", "REST API"],
+      "A web-based college platform designed to provide students with access to academic information such as courses, notes, results, and other college resources through a structured and user-friendly interface.",
+    techTags: [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Web Development"
+    ],
     links: {
-      github: "#", // Update when available
+      github: "https://younus-9668.github.io/myclgwebsite/",
     },
     isFlagship: false,
   },
@@ -299,57 +311,52 @@ export const projects = [
 export const certificates = {
   featured: [
     {
-      name: "Oracle Cloud Infrastructure 2025",
+      name: "Cyber Security Analyst",
+      issuer: "Indo Dutch Cyber Security School (IDCSS)",
+      icon: "🔐",
+    },
+    {
+      name: "Power BI",
+      issuer: "CoursePe",
+      icon: "📊",
+    },
+    {
+      name: "Python Programming Virtual Internship",
+      issuer: "Vault of Codes",
+      icon: "💻",
+    },
+    {
+      name: "Oracle Certification",
       issuer: "Oracle",
       icon: "☁️",
     },
     {
-      name: "Programming in Java (94%)",
-      issuer: "NPTEL",
-      icon: "☕",
-    },
-    {
-      name: "C Programming & Assembly Language",
-      issuer: "NPTEL",
-      icon: "⚙️",
-    },
-    {
-      name: "Technology Job Simulation",
-      issuer: "Deloitte",
-      icon: "💼",
-    },
-    {
-      name: "Career Edge – IT Primer",
-      issuer: "TCS iON",
-      icon: "🎓",
-    },
-    {
-      name: "Fundamentals of BI & Analytics",
-      issuer: "Lumenore",
-      icon: "📊",
+      name: "Generative AI",
+      issuer: "Next Wave",
+      icon: "🤖",
     },
   ],
-  viewAllUrl:
-    "https://drive.google.com/file/d/1ObdGWtVSx8SsfR4AcbCySSd9LFXcAs9f/view?usp=sharing",
+
+  viewAllUrl: "https://drive.google.com/folderview?id=1mPC6VAXWRu1E3jBNjW4w4ngh347mOiCF",
 };
 
 export const education = {
   degree: "B.Tech – Computer Science & Engineering",
-  institution: "IES College of Technology (RGPV)",
-  cgpa: "8.35",
-  graduation: "2027",
-  twelfth: "12th Science – 81%",
-  tenth: "10th CBSE – 70%",
+  institution: "Trinity College of Engineering and Technology (JNTUH)",
+  cgpa: "8.1",
+  graduation: "2026",
+  twelfth: "12th – 87%",
+  tenth: "10th – 100%",
 };
 
 export const footerContent = {
   taglines: [
-    "Software Engineering & Web Dev",
-    "Java · Spring Boot · React",
-    "Full Stack Applications",
+    "Data Analytics & Data Science",
+    "Python · SQL · Power BI",
+    "Turning Data Into Insights",
   ],
-  credential: "B.Tech CSE · CGPA 8.35",
-  copyright: `© ${new Date().getFullYear()} Md Yusuf | Built with React`,
+  credential: "B.Tech CSE · CGPA 8.1",
+  copyright: `© ${new Date().getFullYear()} Mohammed Younus | Built with React`,
 };
 
 // EmailJS Configuration
